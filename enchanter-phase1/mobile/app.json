@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Enchanter",
+    "slug": "enchanter",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0e0b18"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.enchanter.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Enchanter needs your location to verify you are at a place of power before crafting a spell.",
+        "NSLocationAlwaysUsageDescription": "Enchanter needs your location to verify you are at a place of power."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0e0b18"
+      },
+      "package": "com.enchanter.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Enchanter to use your location to verify you are at a place of power."
+        }
+      ],
+      "expo-asset"
+    ],
+    "scheme": "enchanter",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "enchanter-mobile",
+  "version": "0.1.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@supabase/supabase-js": "^2.39.0",
+    "expo": "~55.0.13",
+    "expo-font": "~13.3.1",
+    "expo-location": "~18.1.5",
+    "expo-router": "~55.0.13",
+    "expo-splash-screen": "~0.30.8",
+    "expo-status-bar": "~2.2.3",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-maps": "1.20.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "4.4.0",
+    "react-native-svg": "15.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "typescript": "~5.3.3"
+  }
+}
